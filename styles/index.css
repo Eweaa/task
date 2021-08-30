@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../assets/wallpaperflare.com_wallpaper.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/wallpaperflare.com_wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  font-size: large;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+header nav ul {
+  padding: 10px;
+}
+
+header nav ul li {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  color: red;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+header nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+header nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header nav .dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+  z-index: 3;
+}
+
+header nav .dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+header h1 {
+  font-weight: 800;
+  font-size: 900;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  position: absolute;
+  bottom: 100px;
+  left: 25%;
+}
+
+aside fieldset {
+  border-left: 5px solid red;
+}
+
+article h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+article h1 span {
+  color: red;
+}
+
+article #carouselExampleSlidesOnly {
+  margin: 20px 0px;
+}
+
+footer {
+  background-color: black;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: x-large;
+}
+
+footer p {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+footer .footer-nav, footer .social-nav {
+  float: left;
+  list-style: none;
+}
+
+footer .footer-nav li, footer .social-nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .footer-nav li a, footer .social-nav li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+footer .footer-nav li a:hover, footer .social-nav li a:hover {
+  color: red;
+}
+
+footer .social-nav {
+  float: right;
+}
+/*# sourceMappingURL=index.css.map */
